@@ -19,4 +19,5 @@
 		"**/__init__.py": "${dirname}.${extname}",
 		"**/index.mjs":   "${dirname}.${extname}",
 	},
+	"makefile.configureOnOpen": true,
 }
