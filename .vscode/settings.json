@@ -17,7 +17,11 @@
 	"python.analysis.diagnosticMode": "workspace",
 	"workbench.editor.customLabels.patterns": {
 		"**/__init__.py": "${dirname}.${extname}",
-		"**/index.mjs":   "${dirname}.${extname}",
+		"**/index.mjs": "${dirname}.${extname}",
+	},
+	"files.associations": {
+		"**/codesys/**/*.txt": "st",
+		"**/*.project.txt/**/*.txt": "st"
 	},
 	"makefile.configureOnOpen": true,
 }
